@@ -26,7 +26,7 @@ tweet = input('Enter tweet: ')
 try:
     api.update_status(status=tweet)
     print('success')
-    #you will then 
+    #you will then see your tweet in your profile
 except:
     print('error')
 
